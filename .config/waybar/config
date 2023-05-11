@@ -131,10 +131,10 @@
         "format": "  {icon}  ",
         //"format":"{icon}",
         "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
+            "1": "UNO",
+            "2": "DOS",
+            "3": "TRES",
+            "4": "CUATRO",
         }
     },
 
@@ -184,24 +184,6 @@
          "format": "{percent}%",
          "on-scroll-down": "brightnessctl -c backlight set 1%-",
          "on-scroll-up": "brightnessctl -c backlight set +1%"
-    },
-
-    "custom/firefox": {
-        "format": " ",
-        "on-click": "exec firefox",
-        "tooltip": false
-    },
-
-    "custom/terminal": {
-        "format": " ",
-        "on-click": "exec xfce4-terminal",
-        "tooltip": false
-    },
-
-    "custom/files": {
-        "format": " ",
-        "on-click": "exec thunar",
-        "tooltip": false
     },
 
     "custom/launcher": {

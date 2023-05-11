@@ -13,8 +13,8 @@
 /*
 Arc-Dark Color Scheme
 */
-@define-color highlight #5294e2 ;
-@define-color base1  #404552 ;
+@define-color highlight #903c92 ;
+@define-color base1  #404040 ;
 
 @keyframes blink-warning {
     70% {
@@ -54,8 +54,8 @@ Arc-Dark Color Scheme
 /* The whole bar */
 #waybar {
     background: transparent;
-    color: #bebebe;
-    background-color: @base1;
+    color: rgba(255, 255, 255, .5);
+    background-color: rgba(64, 64, 64, .7);
     font-family: UbuntuMono;
     font-size: 14px;
 }
@@ -108,7 +108,7 @@ Arc-Dark Color Scheme
 }
 
 #cpu.warning {
-    color: orange;
+    color: orange;   color: rgba(255, 255, 255, .5);
 }
 
 #cpu.critical {
@@ -136,7 +136,7 @@ Arc-Dark Color Scheme
 #mode {
     background: @highlight;
     border-bottom: 3px transparent;
-    color:white;
+    color: rgba(255, 255, 255, .5);
     margin-left: 5px;
     padding: 7px;
 }
@@ -169,6 +169,8 @@ Arc-Dark Color Scheme
     border-bottom: 3px solid transparent;
     margin-bottom: 0px;
     padding:0px;
+    color: rgba(255, 255, 255, .5);
+ 
 }
 
 #workspaces button.focused {

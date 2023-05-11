@@ -1,4 +1,4 @@
-EndeavourOS Sway-WM CheatSheet : 
+XEndeavourOS Sway-WM CheatSheet : 
 
 - Hello! Welcome to EndeavourOS and our Sway-WM Edition! Now we'll admit this is not vanilla Sway and it wasn't desinged to be. It is loosely themed around the ArcDark
 colorscheme chosen for it's stability and ease of implementation. The default bar is Waybar not Swaybar - once again chosen it's ease of use and stability as well 
@@ -15,10 +15,10 @@ important ones are listed at the bottom of the document. Waybar is also document
 
  = windows key
 
-# start floating xfce4-terminal
+# start floating foot
 +Return 
 
-# start fixed termite-terminal
+# start fixed terminal
 +Shift+Return
 
 # kill focused window

@@ -165,14 +165,15 @@
     - sysstat
     - archlinux-xdg-menu
     - htop
-    - xfce4-terminal
+    - foot
     - gtk-layer-shell
     - ttf-nerd-fonts-symbols 
     - xdg-desktop-portal-wlr
     - brightnessctl
     - ttf-jetbrains-mono
     - ttf-ubuntu-font-family
-    - xed
+    - nvim
+    - vscode
     - dex
     - celluloid
     - xorg-xhost

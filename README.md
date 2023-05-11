@@ -1,4 +1,4 @@
-# Sway-WM Setup and Theme for EndeavourOS
+# Sway-WM Setup and Theme for myself, forked from Sway EndeavourOS Community Edition sway config repo.
 
 **Sway EndeavourOS Community Edition**
 
@@ -6,7 +6,7 @@
 
 ## To Install Manually
 
-    git clone https://github.com/EndeavourOS-Community-Editions/sway.git
+    git clone https://github.com/Jtho28/sway.git
 
     cd sway
 
@@ -40,9 +40,6 @@ SDDM is the default display manager
 - Keybindings Cheatsheet: press keyboard icon in waybar
 
 - If your experiencing issues with your cursor - edit file `~/.profile` and comment out `export WLR_NO_HARDWARE_CURSORS=1`     
- 
-## Get involved at our forum:
-https://forum.endeavouros.com/t/sway-edition-general-conversation
 
 ## Tutorial for sway-wm settings:
 

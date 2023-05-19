@@ -54,6 +54,6 @@ SDDM is the default display manager
 Main shortcuts: `~/.config/sway/cheatsheet`
 
 ## Notes About My Configuration
-    You will likely need to reconfigure your sway output for your own monitor setup. Also, by waybar config only includes the DP-1 output, so if you do not see the waybar on the default config, you need to go into the waybar config and change the included output. You can also just delete the included output line in the config file e.g. "output": "DP-1" to make the waybar appear on all of your monitors.
+   You will likely need to reconfigure your sway output for your own monitor setup. Also, by waybar config only includes the DP-1 output, so if you do not see the waybar on the default config, you need to go into the waybar config and change the included output. You can also just delete the included output line in the config file e.g. "output": "DP-1" to make the waybar appear on all of your monitors.
     
-    My output is also just broken in general, the 'main' workspace is mapped to my secondary monitory and the 'secondary' workspace is mapped to my main monitor. I do not know how to change this at this time so keep this in mind. Feel free to make a pull request if you think you can make a big improvement to the setup.
+   My output is also just broken in general, the 'main' workspace is mapped to my secondary monitory and the 'secondary' workspace is mapped to my main monitor. I do not know how to change this at this time so keep this in mind. Feel free to make a pull request if you think you can make a big improvement to the setup.

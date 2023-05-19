@@ -1,6 +1,6 @@
-# Sway-WM Setup and Theme for myself, forked from Sway EndeavourOS Community Edition sway config repo.
+# Sway-WM Setup and Theme
 
-**Sway EndeavourOS Community Edition**
+**forked from Sway EndeavourOS Community Edition sway config repo**
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()
 

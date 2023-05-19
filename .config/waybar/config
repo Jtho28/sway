@@ -2,9 +2,9 @@
 {
     "layer": "top",
     "position": "top",
-    "margin-top": 5,
-    "margin-left": 5,
-    "margin-right": 5,
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
     "output": "DP-1",
 
     // If height property would be not present, it'd be calculated dynamically

@@ -134,8 +134,8 @@
         "format": "  {icon}  ",
         //"format":"{icon}",
         "format-icons": {
-            "1": "main",
             "2": "secondary",
+            "1": "main",
             "3": "extra",
             "4": "comms",
         }

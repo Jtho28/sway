@@ -1,6 +1,6 @@
-# Sway-WM Setup and Theme for myself, forked from Sway EndeavourOS Community Edition sway config repo.
+# Sway-WM Setup and Theme
 
-**Sway EndeavourOS Community Edition**
+**forked from Sway EndeavourOS Community Edition sway config repo**
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()
 
@@ -39,7 +39,14 @@ SDDM is the default display manager
 - Screen settings in: `~/.config/sway/config.d/output`
 - Keybindings Cheatsheet: press keyboard icon in waybar
 
-- If your experiencing issues with your cursor - edit file `~/.profile` and comment out `export WLR_NO_HARDWARE_CURSORS=1`     
+- If your experiencing issues with your cursor - edit file `~/.profile` and comment out `export WLR_NO_HARDWARE_CURSORS=1`
+
+## Copy script
+Use the included `copy-to-repo.sh` script to copy local waybar, wofi, and sway config files to repo.</br>
+    
+    chmod +x copy-to-repo.sh
+    
+    ./copy-to-repo.sh
 
 ## Tutorial for sway-wm settings:
 

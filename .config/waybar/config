@@ -38,10 +38,10 @@
     // Modules
 
     "idle_inhibitor": {
-        "format": "{icon} ",
+        "format": " {icon} ",
         "format-icons":{
-            "activated": "",
-            "deactivated": ""
+            "activated": "wired",
+            "deactivated": "tired"
         }
     },
 
@@ -73,7 +73,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "", // Icon: microchip
+        "format": "cpu", // Icon: microchip
         "states": {
             "warning": 70,
             "critical": 90,
@@ -94,7 +94,7 @@
 
     "memory": {
         "interval": 5,
-        "format": "", // Icon: memory
+        "format": "mem", // Icon: memory
         "on-click": "xfce4-terminal -e 'htop'", 
         "states": {
             "warning": 70,
@@ -104,8 +104,8 @@
 
     "network": {
         "interval": 5,
-        "format-wifi": "  ({signalStrength}%)", // Icon: wifi
-        "format-ethernet": "", // Icon: ethernet
+        "format-wifi": "wifi  ({signalStrength}%)", // Icon: wifi
+        "format-ethernet": "eth", // Icon: ethernet
         "format-disconnected": "⚠  Disconnected",
         "tooltip-format": "{ifname}: {ipaddr}",
         "on-click": "foot -e 'nmtui'",

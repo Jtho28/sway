@@ -69,3 +69,5 @@ Main shortcuts: `~/.config/sway/cheatsheet`
    
 ## The Future
 I plan on replacing this setup with an ansible playbook at some point because I want to learn ansible. I will probably just delete this repo after that as to not leave an old and unmaintained fork just laying around here.
+
+Ideally, this ansible playbook, roles, etc. will be able to configure my entire system so I can get up and running on any linux machine with just one repo. I would also like it to be completely distribution agnostic.

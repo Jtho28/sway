@@ -1,5 +1,7 @@
 # Sway-WM Setup and Theme
 
+![alt text](https://github.com/Jtho28/sway/blob/main/2023-05-24T08:03:14,388477551-05:00.png?raw=true)
+
 **forked from Sway EndeavourOS Community Edition sway config repo**
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()

@@ -214,7 +214,7 @@ bindsym $mod+r mode "resize"
 #
 # App shortcuts
 #
-    bindsym $mod+n exec files
+    bindsym $mod+n exec nautilus
     bindsym $mod+o exec google-chrome-stable
 #
 # Screenshots

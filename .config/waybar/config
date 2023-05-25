@@ -6,6 +6,7 @@
     "margin-left": 10,
     "margin-right": 10,
     //"output": "DP-1",
+    "name": "top-bar",
 
     // If height property would be not present, it'd be calculated dynamically
     "height": 2,
@@ -67,7 +68,7 @@
     "clock": {
         "interval": 10,
         "format-alt": " {:%e %b %Y}", // Icon: calendar-alt
-        "format": "{:%H:%M  %b %e}",
+        "format": "{:%H:%M   %a %B %e}",
         "tooltip-format": "{:%e %B %Y}"
     },
 
@@ -78,7 +79,7 @@
             "warning": 70,
             "critical": 90,
         },
-        "on-click": "xfce4-terminal -e 'htop'",
+        "on-click": "alacritty -e 'htop'",
     },
 
     "custom/keyboard-layout": {
